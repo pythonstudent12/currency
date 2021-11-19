@@ -8,8 +8,7 @@ inputRub.addEventListener('input', () => {
     request.open('GET', 'js/current.json');
     request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     request.send();
-    console.log ('1111111');
-    
+        
     request.addEventListener('readystatechange', function() {
 
         function postData () {
